@@ -4,130 +4,118 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Bunista Sacco Society Ltd | Home</title>
+  <meta name="description" content="Bunista Sacco Society Ltd official website" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
   <div class="topbar">
     <div class="container topbar-inner">
-      <div>Welcome to Bunista Sacco Society Ltd</div>
-      <div>Office/WhatsApp: 0768 546 610 | 0725 189 829</div>
+      <div class="topbar-pill">Welcome to Bunista Sacco Society Ltd</div>
+      <div class="topbar-pill">Office / WhatsApp: 0768 546 610 · 0725 189 829</div>
     </div>
   </div>
-
   <header class="site-header">
     <div class="container navbar">
-      <a class="brand" href="index.html">
+      <a class="brand" href="index.html" aria-label="Bunista Sacco Home">
         <img src="assets/bunista-logo.png" alt="Bunista Sacco logo" />
       </a>
-      <nav class="nav-links">
-        <a href="index.html" data-page="index.html">Home</a>
-        <a href="about.html" data-page="about.html">About</a>
-        <a href="membership.html" data-page="membership.html">Membership</a>
-        <a href="products.html" data-page="products.html">Products</a>
-        <a href="management.html" data-page="management.html">Management</a>
-        <a href="contact.html" data-page="contact.html">Contact</a>
+      <button class="menu-toggle" aria-label="Open menu"><span></span></button>
+      <div class="nav-wrap">
+        <nav class="nav-links">
+          <a href="index.html" data-page="index.html">Home</a>
+          <a href="about.html" data-page="about.html">About</a>
+          <a href="membership.html" data-page="membership.html">Membership</a>
+          <a href="products.html" data-page="products.html">Products</a>
+          <a href="management.html" data-page="management.html">Management</a>
+          <a href="contact.html" data-page="contact.html">Contact</a>
+        </nav>
         <a class="portal-btn" href="https://coopmis.coretec.co.ke:8858/Account/Login/?returnUrl=%2FAccount%2FLogOff%2F%3Fenc%3DBcAKspMyVWY%253D%257Cenc" target="_blank" rel="noopener noreferrer">Members Login</a>
-      </nav>
+      </div>
     </div>
   </header>
 
   <main>
     <section class="hero">
       <div class="container hero-grid">
-        <div class="hero-copy">
-          <span class="eyebrow">United we grow</span>
-          <h1>Secure savings. Convenient credit. Steady member growth.</h1>
+        <div class="reveal">
+          <span class="eyebrow">United we grow · Premium digital experience</span>
+          <h1>Trusted savings, smart loans, and a modern Bunista experience on every device.</h1>
           <p>
-            Bunista Sacco Society Ltd was registered in November 2010 under the Co-operative Society’s Act Cap 490,
-            Registration Number 12880. The Sacco draws its membership from Jaramogi Oginga Odinga University of Science and Technology employees and their spouses.
+            Bunista Sacco Society Ltd was registered in November 2010 under the Co-operative Society’s Act Cap 490, Registration Number 12880. The Sacco draws its membership from Jaramogi Oginga Odinga University employees and their spouses and continues to deliver steady financial growth, convenience, and member-focused service.
           </p>
           <div class="hero-actions">
             <a class="btn btn-primary" href="about.html">Explore Bunista</a>
-            <a class="btn btn-secondary portal-btn" href="https://coopmis.coretec.co.ke:8858/Account/Login/?returnUrl=%2FAccount%2FLogOff%2F%3Fenc%3DBcAKspMyVWY%253D%257Cenc" target="_blank" rel="noopener noreferrer">Open Member Portal</a>
+            <a class="btn btn-secondary" href="products.html">View Products</a>
+            <a class="btn btn-whatsapp" href="https://wa.me/254768546610" target="_blank" rel="noopener noreferrer">WhatsApp Us</a>
+          </div>
+          <div class="pill-list">
+            <span class="pill">Secure member portal</span>
+            <span class="pill">Responsive on all devices</span>
+            <span class="pill">Quick contact access</span>
+            <span class="pill">Modern SACCO branding</span>
           </div>
         </div>
-        <div class="hero-card">
-          <div class="stats-grid">
-            <div class="stat-box">
-              <strong>Since 2010</strong>
-              <span>Serving JOOUST employees and spouses with trusted financial services.</span>
-            </div>
-            <div class="stat-box">
-              <strong>Main Campus</strong>
-              <span>Finance Office Compound, behind the Procurement Offices.</span>
-            </div>
-            <div class="stat-box">
-              <strong>Steady Growth</strong>
-              <span>Membership, share capital and non-withdrawable deposits have grown over the years.</span>
-            </div>
-            <div class="stat-box">
-              <strong>Member Focus</strong>
-              <span>Promoting welfare, thrift, dignity and economic empowerment.</span>
+        <div class="hero-panel reveal">
+          <div class="dashboard-mini">
+            <div class="kpi-row">
+              <div class="kpi"><strong data-count="2010">0</strong><span>Year founded</span></div>
+              <div class="kpi"><strong data-count="2027">0</strong><span>Strategic plan end year</span></div>
+              <div class="kpi"><strong data-count="1000">0</strong><span>KES joining fee</span></div>
             </div>
           </div>
+          <div class="grid-2">
+            <div class="metric-card"><strong>Steady Growth</strong><span>Built on share capital, deposits, and confidence.</span></div>
+            <div class="metric-card"><strong>Easy Access</strong><span>Members login link is always visible and one tap away.</span></div>
+            <div class="metric-card"><strong>Trusted Credit</strong><span>Convenient products based on ability to repay.</span></div>
+            <div class="metric-card"><strong>Human Support</strong><span>Fast contact via office line and WhatsApp.</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="section-heading reveal">
+          <h2>Why this new Bunista site feels world-class</h2>
+          <p>It combines premium visual design, simple navigation, mobile-first responsiveness, fast contact access, and clear product information for members and prospective members.</p>
+        </div>
+        <div class="grid-4">
+          <div class="feature-card reveal"><div class="feature-icon">⚡</div><h3>Fast and clean</h3><p>Modern layout with clearer sections, polished spacing, and easy reading on desktop, tablet, and phone.</p></div>
+          <div class="feature-card reveal"><div class="feature-icon">🔐</div><h3>Portal-first</h3><p>The members login is prominent in the header, homepage actions, and footer for quick online access.</p></div>
+          <div class="feature-card reveal"><div class="feature-icon">💬</div><h3>WhatsApp ready</h3><p>A floating WhatsApp button gives members an instant communication channel from any page.</p></div>
+          <div class="feature-card reveal"><div class="feature-icon">🌍</div><h3>All-device friendly</h3><p>Collapses beautifully on small screens with a mobile menu and touch-friendly buttons.</p></div>
         </div>
       </div>
     </section>
 
     <section class="section">
       <div class="container grid-2">
-        <div class="notice-list">
-          <div class="section-heading">
-            <h2>General Notices</h2>
-            <p>Important items highlighted for members and stakeholders.</p>
-          </div>
-          <ul>
+        <div class="notice-card reveal">
+          <h3>General Notices</h3>
+          <ul class="list-clean">
             <li><strong>Strategic Plan 2023 - 2027</strong></li>
-            <li><strong>By-Laws Areas of Amendment</strong></li>
-            <li>Members are encouraged to stay updated through Bunista communication channels.</li>
+            <li><strong>By-Laws areas of amendment</strong></li>
+            <li>Members are encouraged to stay updated through official Bunista communication channels.</li>
           </ul>
         </div>
-        <div class="info-panel">
-          <div class="section-heading">
-            <h2>Welcome</h2>
-            <p>
-              Bunista has achieved steady growth since inception. The Sacco continues to strengthen its social and economic base through savings, share capital, non-withdrawable deposits and convenient credit products for members.
-            </p>
-          </div>
-          <p>
-            Its main objective is to organize and promote the welfare and economic interest of members within a trusted co-operative framework.
-          </p>
+        <div class="notice-card reveal">
+          <h3>Office Location</h3>
+          <p>The Sacco has its offices at the university main campus, Finance Office Compound behind Procurement Offices.</p>
+          <p><a class="btn btn-secondary" href="https://www.google.com/maps/search/?api=1&query=Jaramogi+Oginga+Odinga+University+of+Science+and+Technology+Bondo" target="_blank" rel="noopener noreferrer">Find us on Google Map</a></p>
         </div>
       </div>
     </section>
 
     <section class="section">
-      <div class="container">
-        <div class="section-heading">
-          <h2>What Bunista stands for</h2>
-          <p>Built on sound co-operative values and practical member-centered financial support.</p>
-        </div>
-        <div class="grid-3">
-          <div class="card">
-            <h3>Encourage thrift</h3>
-            <p>Support disciplined saving among members for long-term personal and family growth.</p>
-          </div>
-          <div class="card">
-            <h3>Promote dignity</h3>
-            <p>Offer products and services that strengthen economic and social wellbeing.</p>
-          </div>
-          <div class="card">
-            <h3>Provide education</h3>
-            <p>Educate members on proper use of credit, poverty eradication and co-operation.</p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="section">
-      <div class="container">
-        <div class="cta-card card">
-          <h3>Need quick access?</h3>
-          <p>Use the Bunista online portal for member login and digital services.</p>
-          <a class="btn portal-btn" href="https://coopmis.coretec.co.ke:8858/Account/Login/?returnUrl=%2FAccount%2FLogOff%2F%3Fenc%3DBcAKspMyVWY%253D%257Cenc" target="_blank" rel="noopener noreferrer">Members Login</a>
+      <div class="container cta-band reveal">
+        <h3 style="margin-top:0;">Ready to access your account?</h3>
+        <p>Use the official members portal for Bunista digital services, balances, and account access.</p>
+        <div class="hero-actions">
+          <a class="portal-btn" href="https://coopmis.coretec.co.ke:8858/Account/Login/?returnUrl=%2FAccount%2FLogOff%2F%3Fenc%3DBcAKspMyVWY%253D%257Cenc" target="_blank" rel="noopener noreferrer">Members Login</a>
+          <a class="btn btn-whatsapp" href="https://wa.me/254768546610" target="_blank" rel="noopener noreferrer">Talk to Bunista</a>
         </div>
       </div>
     </section>
@@ -139,7 +127,7 @@
         <h4>Bunista Sacco Society Ltd</h4>
         <p>P.O. Box 194-40601, Bondo, Siaya, Kenya</p>
         <p>Email: feedback@bunista.co.ke</p>
-        <p>Office: 0725-189-829</p>
+        <p>Office / WhatsApp: 0768 546 610</p>
       </div>
       <div>
         <h4>Quick Links</h4>
@@ -150,13 +138,14 @@
         </ul>
       </div>
       <div>
-        <h4>Portal</h4>
+        <h4>Online Services</h4>
         <p><a href="https://coopmis.coretec.co.ke:8858/Account/Login/?returnUrl=%2FAccount%2FLogOff%2F%3Fenc%3DBcAKspMyVWY%253D%257Cenc" target="_blank" rel="noopener noreferrer">Open Members Login</a></p>
+        <p><a href="https://wa.me/254768546610" target="_blank" rel="noopener noreferrer">Chat on WhatsApp</a></p>
       </div>
     </div>
-    <div class="container footer-bottom">© 2026 Bunista Sacco Society Ltd. All rights reserved.</div>
+    <div class="container footer-bottom">© 2026 Bunista Sacco Society Ltd. Designed for a premium, device-friendly member experience.</div>
   </footer>
-
+  <a class="float-whatsapp" href="https://wa.me/254768546610" target="_blank" rel="noopener noreferrer" aria-label="Chat with Bunista on WhatsApp">✆</a>
   <script src="script.js"></script>
 </body>
 </html>
